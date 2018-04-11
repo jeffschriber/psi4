@@ -45,7 +45,7 @@ class DIISManager;
 class PSIO;
 namespace scf {
 
-class HF : public Wavefunction {
+class PSI_API HF : public Wavefunction {
 protected:
 
     /// The kinetic energy matrix

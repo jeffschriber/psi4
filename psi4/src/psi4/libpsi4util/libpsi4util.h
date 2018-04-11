@@ -33,6 +33,7 @@
 #include <vector>
 #include <algorithm>
 #include <sys/time.h>
+#include "psi4/pragma.h"
 
 namespace psi {
 
@@ -94,7 +95,7 @@ std::vector<std::string> split(const std::string &input, const std::string &rege
  */
 size_t edit_distance(const std::string &s1, const std::string &s2);
 
-class Timer {
+class PSI_API Timer {
    public:
     Timer();
     double get();

@@ -84,14 +84,14 @@ int pople(double **A, double *x, int dimen, int num_vecs, double tolerance,
            std::string out_fname, int print_lvl);
 void mat_print(double **A, int rows, int cols, std::string out_fname);
 
-void timer_init(void);
-void timer_done(void);
-void timer_on(const std::string& key);
-void timer_off(const std::string& key);
-void parallel_timer_on(const std::string& key, int thread_rank);
-void parallel_timer_off(const std::string& key, int thread_rank);
-void start_skip_timers();
-void stop_skip_timers();
+PSI_API void timer_init(void);
+PSI_API void timer_done(void);
+PSI_API void timer_on(const std::string& key);
+PSI_API void timer_off(const std::string& key);
+PSI_API void parallel_timer_on(const std::string& key, int thread_rank);
+PSI_API void parallel_timer_off(const std::string& key, int thread_rank);
+PSI_API void start_skip_timers();
+PSI_API void stop_skip_timers();
 
 void print_block(double *, int, int, FILE *);
 

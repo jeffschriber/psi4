@@ -35,7 +35,7 @@
 namespace psi {
 namespace scf {
 
-class UHF : public HF {
+class PSI_API UHF : public HF {
 protected:
     SharedMatrix Dt_, Dt_old_;
     SharedMatrix Da_old_, Db_old_;

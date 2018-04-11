@@ -296,7 +296,7 @@ class Data {
 #ifdef __INTEL_COMPILER
 #pragma warning disable 654
 #endif
-class ArrayType : public DataType {
+class PSI_API ArrayType : public DataType {
     std::vector<Data> array_;
 
    public:

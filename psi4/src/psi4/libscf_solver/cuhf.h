@@ -66,7 +66,7 @@ namespace psi { namespace scf {
 
 */
 
-class CUHF : public HF {
+class PSI_API CUHF : public HF {
 protected:
     SharedMatrix Dt_, Dt_old_;
     SharedMatrix Da_old_, Db_old_;

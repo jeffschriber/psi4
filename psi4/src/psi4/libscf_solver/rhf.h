@@ -36,7 +36,7 @@ namespace psi {
 
 namespace scf {
 
-class RHF : public HF {
+class PSI_API RHF : public HF {
 protected:
 
     // Temporary matrices
